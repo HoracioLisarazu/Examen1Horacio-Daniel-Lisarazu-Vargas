@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestionDeEmpleados.Dal\GestionDeEmpleados.Dal.csproj" />
+    <ProjectReference Include="..\GestionDeEmpleados.Modelos\GestionDeEmpleados.Modelos.csproj" />
+  </ItemGroup>
+
+</Project>
